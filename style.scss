@@ -17,4 +17,22 @@ $sun-size: 40%;
     padding-bottom: $sun-size;
     border-radius: 50%;
     background: linear-gradient(#FBEF45, #f7b763, #FD1DB1);
+    overflow: hidden;
+    position: relative;
+}
+
+$number-of-bars: 19;
+$bar-spacing: 30;
+$starting-position: 30%;
+
+@for $i from 1 through $number-of-bars {
+    .bar:nth-child(#{$i}) {
+        background-color: black;
+        position: absolute;
+        top: calc(#{$starting-position} + ((#{$i} - 1) * #{$bar-spacing}px));
+        top: calc(#{$starting-position} + ((#{$i}px - 1px) * #{$bar-spacing}px));
+        left: 0;
+        width: 100%;
+        height: #{$i}px;
+    }
 }

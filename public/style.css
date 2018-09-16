@@ -12,4 +12,177 @@ body {
   width: 40%;
   padding-bottom: 40%;
   border-radius: 50%;
-  background: linear-gradient(#FBEF45, #f7b763, #FD1DB1); }
+  background: linear-gradient(#FBEF45, #f7b763, #FD1DB1);
+  overflow: hidden;
+  position: relative; }
+
+.bar:nth-child(1) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((1 - 1) * 30px));
+  top: calc(30% + ((1px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 1px; }
+
+.bar:nth-child(2) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((2 - 1) * 30px));
+  top: calc(30% + ((2px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 2px; }
+
+.bar:nth-child(3) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((3 - 1) * 30px));
+  top: calc(30% + ((3px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 3px; }
+
+.bar:nth-child(4) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((4 - 1) * 30px));
+  top: calc(30% + ((4px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 4px; }
+
+.bar:nth-child(5) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((5 - 1) * 30px));
+  top: calc(30% + ((5px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 5px; }
+
+.bar:nth-child(6) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((6 - 1) * 30px));
+  top: calc(30% + ((6px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 6px; }
+
+.bar:nth-child(7) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((7 - 1) * 30px));
+  top: calc(30% + ((7px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 7px; }
+
+.bar:nth-child(8) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((8 - 1) * 30px));
+  top: calc(30% + ((8px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 8px; }
+
+.bar:nth-child(9) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((9 - 1) * 30px));
+  top: calc(30% + ((9px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 9px; }
+
+.bar:nth-child(10) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((10 - 1) * 30px));
+  top: calc(30% + ((10px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 10px; }
+
+.bar:nth-child(11) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((11 - 1) * 30px));
+  top: calc(30% + ((11px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 11px; }
+
+.bar:nth-child(12) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((12 - 1) * 30px));
+  top: calc(30% + ((12px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 12px; }
+
+.bar:nth-child(13) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((13 - 1) * 30px));
+  top: calc(30% + ((13px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 13px; }
+
+.bar:nth-child(14) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((14 - 1) * 30px));
+  top: calc(30% + ((14px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 14px; }
+
+.bar:nth-child(15) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((15 - 1) * 30px));
+  top: calc(30% + ((15px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 15px; }
+
+.bar:nth-child(16) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((16 - 1) * 30px));
+  top: calc(30% + ((16px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 16px; }
+
+.bar:nth-child(17) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((17 - 1) * 30px));
+  top: calc(30% + ((17px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 17px; }
+
+.bar:nth-child(18) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((18 - 1) * 30px));
+  top: calc(30% + ((18px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 18px; }
+
+.bar:nth-child(19) {
+  background-color: black;
+  position: absolute;
+  top: calc(30% + ((19 - 1) * 30px));
+  top: calc(30% + ((19px - 1px) * 30px));
+  left: 0;
+  width: 100%;
+  height: 19px; }
