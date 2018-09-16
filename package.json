@@ -1,0 +1,19 @@
+{
+  "name": "synthwave-sunset",
+  "version": "1.0.0",
+  "description": "The sunset that literally every Retro Wave artist has on their album cover, in CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenDavies/synthwave-sunset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenDavies/synthwave-sunset/issues"
+  },
+  "homepage": "https://github.com/WarrenDavies/synthwave-sunset#readme"
+}
