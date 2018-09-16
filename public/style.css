@@ -1,5 +1,6 @@
 body {
-  margin: 0px; }
+  margin: 0px;
+  background-color: black; }
 
 .wrapper {
   display: flex;
@@ -14,7 +15,8 @@ body {
   border-radius: 50%;
   background: linear-gradient(#FBEF45, #f7b763, #FD1DB1);
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  box-shadow: 0px 0px 30px 20px #f7b763; }
 
 .bar:nth-child(1) {
   background-color: black;
