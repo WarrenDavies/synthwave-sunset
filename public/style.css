@@ -1,0 +1,15 @@
+body {
+  margin: 0px; }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; }
+
+.sunset {
+  width: 40%;
+  padding-bottom: 40%;
+  border-radius: 50%;
+  background: linear-gradient(#FBEF45, #f7b763, #FD1DB1); }
