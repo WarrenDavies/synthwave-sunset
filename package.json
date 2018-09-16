@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WarrenDavies/synthwave-sunset/issues"
   },
-  "homepage": "https://github.com/WarrenDavies/synthwave-sunset#readme"
+  "homepage": "https://github.com/WarrenDavies/synthwave-sunset#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
