@@ -34,7 +34,7 @@ $color3: #FD1DB1;
     background: -moz-linear-gradient($color1, $color2, $color3); 
     background: -webkit-linear-gradient($color1, $color2, $color3);
     background: linear-gradient($color1, $color2, $color3); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2305a', endColorstr='#fca832',GradientType=1 );  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color3',GradientType=1 );  
     filter:blur(10px);
 }
 

@@ -27,7 +27,7 @@ body {
   background: -moz-linear-gradient(#FBEF45, #f7b763, #FD1DB1);
   background: -webkit-linear-gradient(#FBEF45, #f7b763, #FD1DB1);
   background: linear-gradient(#FBEF45, #f7b763, #FD1DB1);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2305a', endColorstr='#fca832',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color3',GradientType=1 );
   filter: blur(10px); }
 
 .sunset {
