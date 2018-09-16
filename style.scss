@@ -35,7 +35,7 @@ $color3: #FD1DB1;
     background: -webkit-linear-gradient($color1, $color2, $color3);
     background: linear-gradient($color1, $color2, $color3); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color3',GradientType=1 );  
-    filter:blur(10px);
+    filter:blur(15px);
 }
 
 .sunset {
@@ -55,14 +55,23 @@ $bar-spacing: 6.5%;
 $starting-position: 30%;
 
 @for $i from 1 through $number-of-bars {
+    //$delay-seconds: ($i - 1) * 0.5);
     .bar:nth-child(#{$i}) {
         background-color: black;
         position: absolute;
-        top: calc(#{$starting-position} + ((#{$i} - 1px) * #{$bar-spacing}px));
-        top: calc(#{$starting-position} + ((#{$i}px - 1px) * #{$bar-spacing}));
         top: calc(#{$starting-position} + (#{$i} * #{$bar-spacing}));
         left: 0;
         width: 100%;
-        height: #{$i}px;
+        height: 0px;
+        animation: open-bar-#{$i};
+        animation-fill-mode: forwards;
+        animation-duration: (($i) * 0.1s);
+        animation-delay: (($i - 1) * 0.1) + (($i) * 0.1s);
     }
+
+    @keyframes open-bar-#{$i} {
+        0% {height: 0px}; 
+        100% {height: #{$i}px}; 
+    }
+
 }
