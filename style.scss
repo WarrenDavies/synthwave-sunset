@@ -65,8 +65,8 @@ $starting-position: 30%;
         height: 0px;
         animation: open-bar-#{$i};
         animation-fill-mode: forwards;
-        animation-duration: (($i) * 0.05s);
-        animation-delay: (($i - 1) * 0.05) + (($i) * 0.05s);
+        animation-duration: (($i) * 0.015s);
+        animation-delay: (($i * ($i + 1)) / 2) * 0.015s;
     }
 
     @keyframes open-bar-#{$i} {
@@ -74,4 +74,18 @@ $starting-position: 30%;
         100% {height: #{$i}px}; 
     }
 
+}
+
+@media screen and (max-width: 1000px ) {
+    .container {
+        width: 400px;
+        padding-bottom: 400px;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    .container {
+        width: 100%;
+        padding-bottom: 100%;
+    }
 }

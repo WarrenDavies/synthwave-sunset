@@ -50,8 +50,8 @@ body {
   height: 0px;
   animation: open-bar-1;
   animation-fill-mode: forwards;
-  animation-duration: 0.05s;
-  animation-delay: 0.05s; }
+  animation-duration: 0.015s;
+  animation-delay: 0.015s; }
 
 @keyframes open-bar-1 {
   0% {
@@ -68,8 +68,8 @@ body {
   height: 0px;
   animation: open-bar-2;
   animation-fill-mode: forwards;
-  animation-duration: 0.1s;
-  animation-delay: 0.15s; }
+  animation-duration: 0.03s;
+  animation-delay: 0.045s; }
 
 @keyframes open-bar-2 {
   0% {
@@ -86,8 +86,8 @@ body {
   height: 0px;
   animation: open-bar-3;
   animation-fill-mode: forwards;
-  animation-duration: 0.15s;
-  animation-delay: 0.25s; }
+  animation-duration: 0.045s;
+  animation-delay: 0.09s; }
 
 @keyframes open-bar-3 {
   0% {
@@ -104,8 +104,8 @@ body {
   height: 0px;
   animation: open-bar-4;
   animation-fill-mode: forwards;
-  animation-duration: 0.2s;
-  animation-delay: 0.35s; }
+  animation-duration: 0.06s;
+  animation-delay: 0.15s; }
 
 @keyframes open-bar-4 {
   0% {
@@ -122,8 +122,8 @@ body {
   height: 0px;
   animation: open-bar-5;
   animation-fill-mode: forwards;
-  animation-duration: 0.25s;
-  animation-delay: 0.45s; }
+  animation-duration: 0.075s;
+  animation-delay: 0.225s; }
 
 @keyframes open-bar-5 {
   0% {
@@ -140,8 +140,8 @@ body {
   height: 0px;
   animation: open-bar-6;
   animation-fill-mode: forwards;
-  animation-duration: 0.3s;
-  animation-delay: 0.55s; }
+  animation-duration: 0.09s;
+  animation-delay: 0.315s; }
 
 @keyframes open-bar-6 {
   0% {
@@ -158,8 +158,8 @@ body {
   height: 0px;
   animation: open-bar-7;
   animation-fill-mode: forwards;
-  animation-duration: 0.35s;
-  animation-delay: 0.65s; }
+  animation-duration: 0.105s;
+  animation-delay: 0.42s; }
 
 @keyframes open-bar-7 {
   0% {
@@ -176,8 +176,8 @@ body {
   height: 0px;
   animation: open-bar-8;
   animation-fill-mode: forwards;
-  animation-duration: 0.4s;
-  animation-delay: 0.75s; }
+  animation-duration: 0.12s;
+  animation-delay: 0.54s; }
 
 @keyframes open-bar-8 {
   0% {
@@ -194,8 +194,8 @@ body {
   height: 0px;
   animation: open-bar-9;
   animation-fill-mode: forwards;
-  animation-duration: 0.45s;
-  animation-delay: 0.85s; }
+  animation-duration: 0.135s;
+  animation-delay: 0.675s; }
 
 @keyframes open-bar-9 {
   0% {
@@ -212,11 +212,21 @@ body {
   height: 0px;
   animation: open-bar-10;
   animation-fill-mode: forwards;
-  animation-duration: 0.5s;
-  animation-delay: 0.95s; }
+  animation-duration: 0.15s;
+  animation-delay: 0.825s; }
 
 @keyframes open-bar-10 {
   0% {
     height: 0px; }
   100% {
     height: 10px; } }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 400px;
+    padding-bottom: 400px; } }
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    padding-bottom: 100%; } }
